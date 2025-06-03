@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+.frame {
+    overflow: hidden;
+    width: 1080px;
+    height: 1920px;
+    background-color: beige;
+}
+
+.btn {
+    user-select: none;
+    width: 130px;
+    height: 50px;
+    margin: 100px;
+    text-align: center;
+    align-content: center;
+    box-sizing: border-box;
+    border: 2px solid #94A1A8;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+}
+
+.btn-1 {
+    transition: all 0.2s;
+}
+
+.btn-1:active {
+    transform: scale(0.98);
+}
+
+.btn-2 {
+    filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.5));
+    transition: all 0.2s;
+}
+
+.btn-2:active {
+    filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.5));
+}
+
+.btn-3 {
+    filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.5));
+    transition: all 0.2s;
+}
+
+.btn-3:active {
+    transform: scale(0.98);
+    filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.5));
+}
+
+.btn-txt {
+    font-size: 16px;
+    color: #333333;
+    font-weight: 500;
+}
+
+.mario {
+    margin: 100px;
+}
+
+.img-1 {
+    opacity: 0.5;
+    transition: all 0.2s;
+}
+
+.img-1:active {
+    opacity: 1;
+}
+
+.img-2 {
+    filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.5));
+    transition: all 0.2s;
+}
+
+.img-2:active {
+    transform: scale(0.98);
+    filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.5));
+}
+
+/* Scroll */
+.scroll-area {
+    height: 500px;
+    overflow-y: scroll;
+    border: 2px solid red;
+}
+
+.text-section {
+    color: #2D2D2D;
+    text-align: center;
+    margin: 76px 0;
+}
+
+.text-section h1 {
+    font-family: "Lexend", sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.text-section h2 {
+    font-family: "Lexend", sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    padding-top: 20px;
+}
+
+.text-section p {
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.div-line {
+    width: 196px;
+    height: 0;
+    margin: 50px auto;
+    border-top: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.card-section-1 {
+    display: flex;
+    float: row;
+    justify-content: space-between;
+    width: 1020px;
+    margin: 0 auto;
+}
+
+.card-frame-s {
+    width: 234px;
+    height: 200px;
+    box-sizing: border-box;
+    border: 1px solid #929292;
+    border-radius: 15px;
+    text-align: center;
+    color: #434343;
+    background-color: #EDEDED;
+    padding-top: 28px;
+}
+
+.card-frame-s h3 {
+    font-family: "Lexend", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.card-frame-s p {
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 400;
+}
+
+.card-div-line {
+    width: 184px;
+    height: 0;
+    margin: 24px auto;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
